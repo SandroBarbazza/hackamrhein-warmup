@@ -1,0 +1,2970 @@
+{
+ "quelle": "Kantonaler Stromverbrauch, IWB über Open Data Basel-Stadt, Datensatz 100233, CC BY 4.0",
+ "stand": "2026-09-11",
+ "einheit": "vermutlich kWh je 15-Minuten-Intervall, laut Portal prüfen",
+ "methode": "Tageswert = Mittelwert der 15-Minuten-Intervalle × 96; Prozent = Tageswert / Median aller gültigen Tage des Jahres",
+ "anzahl_je_jahr": 10,
+ "verworfene_tage": [
+  {
+   "datum": "2012-01-01",
+   "intervalle": 95
+  },
+  {
+   "datum": "2026-09-11",
+   "intervalle": 96
+  }
+ ],
+ "interpolierte_zeitstempel": [
+  "2014-01-01T00:00:00+01:00",
+  "2015-11-01T00:00:00+01:00",
+  "2019-10-01T00:00:00+02:00"
+ ],
+ "befund": {
+  "ranglistenplaetze": 150,
+  "davon_sonntage": 133,
+  "jahre": 15,
+  "rang_1_nach_kategorie": {
+   "gewöhnlicher Sonntag": 3,
+   "Pfingstsonntag": 2,
+   "Ostersonntag": 10
+  },
+  "kategorien": {
+   "gewöhnlicher Sonntag": 101,
+   "Ostersonntag": 15,
+   "Pfingstsonntag": 11,
+   "Feiertag (Di)": 1,
+   "Feiertag (Mo)": 9,
+   "Feiertag (Sa)": 2,
+   "Feiertag (Fr)": 3,
+   "Feiertag (So)": 6,
+   "Feiertag (Mi)": 1,
+   "Feiertag (Do)": 1
+  },
+  "median_prozent_je_kategorie_vollstaendige_jahre": {
+   "Werktag zwischen Weihnachten und Neujahr": 92.2,
+   "gewöhnlicher Werktag": 102.2,
+   "Samstag": 88.1,
+   "gewöhnlicher Sonntag": 81.1,
+   "Feiertag an einem Werktag": 80.3,
+   "Ostersonntag": 74.8,
+   "Pfingstsonntag": 76.9,
+   "Feiertag am Samstag": 78.8
+  }
+ },
+ "gesamt": [
+  {
+   "jahr": 2012,
+   "tage": 365,
+   "vollstaendig": true,
+   "erster_tag": "2012-01-02",
+   "letzter_tag": "2012-12-31",
+   "median": 4518606.8,
+   "stillste": [
+    {
+     "rang": 1,
+     "datum": "2012-07-22",
+     "wochentag": 6,
+     "wert": 3246887.5,
+     "prozent": 71.9,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 2,
+     "datum": "2012-04-08",
+     "wochentag": 6,
+     "wert": 3249197.5,
+     "prozent": 71.9,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 3,
+     "datum": "2012-05-27",
+     "wochentag": 6,
+     "wert": 3285188.1,
+     "prozent": 72.7,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 4,
+     "datum": "2012-12-30",
+     "wochentag": 6,
+     "wert": 3303635.4,
+     "prozent": 73.1,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 5,
+     "datum": "2012-07-15",
+     "wochentag": 6,
+     "wert": 3310734.4,
+     "prozent": 73.3,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 6,
+     "datum": "2012-05-13",
+     "wochentag": 6,
+     "wert": 3332181.5,
+     "prozent": 73.7,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 7,
+     "datum": "2012-12-25",
+     "wochentag": 1,
+     "wert": 3348907.1,
+     "prozent": 74.1,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 8,
+     "datum": "2012-05-20",
+     "wochentag": 6,
+     "wert": 3353998.3,
+     "prozent": 74.2,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 9,
+     "datum": "2012-09-16",
+     "wochentag": 6,
+     "wert": 3374334.4,
+     "prozent": 74.7,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 10,
+     "datum": "2012-04-01",
+     "wochentag": 6,
+     "wert": 3394274.5,
+     "prozent": 75.1,
+     "intervalle": 96,
+     "interpoliert": false
+    }
+   ]
+  },
+  {
+   "jahr": 2013,
+   "tage": 365,
+   "vollstaendig": true,
+   "erster_tag": "2013-01-01",
+   "letzter_tag": "2013-12-31",
+   "median": 4287866.7,
+   "stillste": [
+    {
+     "rang": 1,
+     "datum": "2013-05-19",
+     "wochentag": 6,
+     "wert": 3158375.8,
+     "prozent": 73.7,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 2,
+     "datum": "2013-03-31",
+     "wochentag": 6,
+     "wert": 3158429.0,
+     "prozent": 73.7,
+     "intervalle": 92,
+     "interpoliert": false
+    },
+    {
+     "rang": 3,
+     "datum": "2013-12-29",
+     "wochentag": 6,
+     "wert": 3183470.0,
+     "prozent": 74.2,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 4,
+     "datum": "2013-05-12",
+     "wochentag": 6,
+     "wert": 3186521.9,
+     "prozent": 74.3,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 5,
+     "datum": "2013-06-30",
+     "wochentag": 6,
+     "wert": 3195782.1,
+     "prozent": 74.5,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 6,
+     "datum": "2013-04-01",
+     "wochentag": 0,
+     "wert": 3228723.2,
+     "prozent": 75.3,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 7,
+     "datum": "2013-05-05",
+     "wochentag": 6,
+     "wert": 3238943.3,
+     "prozent": 75.5,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 8,
+     "datum": "2013-07-14",
+     "wochentag": 6,
+     "wert": 3246217.1,
+     "prozent": 75.7,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 9,
+     "datum": "2013-04-14",
+     "wochentag": 6,
+     "wert": 3249067.9,
+     "prozent": 75.8,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 10,
+     "datum": "2013-06-02",
+     "wochentag": 6,
+     "wert": 3251130.2,
+     "prozent": 75.8,
+     "intervalle": 96,
+     "interpoliert": false
+    }
+   ]
+  },
+  {
+   "jahr": 2014,
+   "tage": 365,
+   "vollstaendig": true,
+   "erster_tag": "2014-01-01",
+   "letzter_tag": "2014-12-31",
+   "median": 4115746.4,
+   "stillste": [
+    {
+     "rang": 1,
+     "datum": "2014-04-20",
+     "wochentag": 6,
+     "wert": 2890324.2,
+     "prozent": 70.2,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 2,
+     "datum": "2014-06-01",
+     "wochentag": 6,
+     "wert": 2999786.3,
+     "prozent": 72.9,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 3,
+     "datum": "2014-05-04",
+     "wochentag": 6,
+     "wert": 3042178.9,
+     "prozent": 73.9,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 4,
+     "datum": "2014-05-18",
+     "wochentag": 6,
+     "wert": 3055120.3,
+     "prozent": 74.2,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 5,
+     "datum": "2014-05-25",
+     "wochentag": 6,
+     "wert": 3070912.7,
+     "prozent": 74.6,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 6,
+     "datum": "2014-08-17",
+     "wochentag": 6,
+     "wert": 3072656.0,
+     "prozent": 74.7,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 7,
+     "datum": "2014-08-24",
+     "wochentag": 6,
+     "wert": 3074816.5,
+     "prozent": 74.7,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 8,
+     "datum": "2014-05-11",
+     "wochentag": 6,
+     "wert": 3112293.7,
+     "prozent": 75.6,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 9,
+     "datum": "2014-04-13",
+     "wochentag": 6,
+     "wert": 3119504.3,
+     "prozent": 75.8,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 10,
+     "datum": "2014-07-13",
+     "wochentag": 6,
+     "wert": 3121682.6,
+     "prozent": 75.8,
+     "intervalle": 96,
+     "interpoliert": false
+    }
+   ]
+  },
+  {
+   "jahr": 2015,
+   "tage": 365,
+   "vollstaendig": true,
+   "erster_tag": "2015-01-01",
+   "letzter_tag": "2015-12-31",
+   "median": 4122896.7,
+   "stillste": [
+    {
+     "rang": 1,
+     "datum": "2015-12-27",
+     "wochentag": 6,
+     "wert": 2982047.0,
+     "prozent": 72.3,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 2,
+     "datum": "2015-12-26",
+     "wochentag": 5,
+     "wert": 2996018.4,
+     "prozent": 72.7,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 3,
+     "datum": "2015-12-25",
+     "wochentag": 4,
+     "wert": 3010799.8,
+     "prozent": 73.0,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 4,
+     "datum": "2015-05-24",
+     "wochentag": 6,
+     "wert": 3056142.5,
+     "prozent": 74.1,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 5,
+     "datum": "2015-04-05",
+     "wochentag": 6,
+     "wert": 3090522.4,
+     "prozent": 75.0,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 6,
+     "datum": "2015-05-31",
+     "wochentag": 6,
+     "wert": 3126678.1,
+     "prozent": 75.8,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 7,
+     "datum": "2015-05-17",
+     "wochentag": 6,
+     "wert": 3133106.8,
+     "prozent": 76.0,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 8,
+     "datum": "2015-04-19",
+     "wochentag": 6,
+     "wert": 3134280.8,
+     "prozent": 76.0,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 9,
+     "datum": "2015-09-06",
+     "wochentag": 6,
+     "wert": 3135427.4,
+     "prozent": 76.0,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 10,
+     "datum": "2015-07-26",
+     "wochentag": 6,
+     "wert": 3138034.6,
+     "prozent": 76.1,
+     "intervalle": 96,
+     "interpoliert": false
+    }
+   ]
+  },
+  {
+   "jahr": 2016,
+   "tage": 366,
+   "vollstaendig": true,
+   "erster_tag": "2016-01-01",
+   "letzter_tag": "2016-12-31",
+   "median": 4064078.4,
+   "stillste": [
+    {
+     "rang": 1,
+     "datum": "2016-03-27",
+     "wochentag": 6,
+     "wert": 2947341.6,
+     "prozent": 72.5,
+     "intervalle": 92,
+     "interpoliert": false
+    },
+    {
+     "rang": 2,
+     "datum": "2016-12-25",
+     "wochentag": 6,
+     "wert": 2993615.3,
+     "prozent": 73.7,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 3,
+     "datum": "2016-05-15",
+     "wochentag": 6,
+     "wert": 3011931.4,
+     "prozent": 74.1,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 4,
+     "datum": "2016-05-08",
+     "wochentag": 6,
+     "wert": 3052260.9,
+     "prozent": 75.1,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 5,
+     "datum": "2016-01-03",
+     "wochentag": 6,
+     "wert": 3063174.9,
+     "prozent": 75.4,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 6,
+     "datum": "2016-07-17",
+     "wochentag": 6,
+     "wert": 3066910.1,
+     "prozent": 75.5,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 7,
+     "datum": "2016-07-03",
+     "wochentag": 6,
+     "wert": 3079036.6,
+     "prozent": 75.8,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 8,
+     "datum": "2016-08-07",
+     "wochentag": 6,
+     "wert": 3083841.9,
+     "prozent": 75.9,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 9,
+     "datum": "2016-01-01",
+     "wochentag": 4,
+     "wert": 3086678.9,
+     "prozent": 76.0,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 10,
+     "datum": "2016-08-21",
+     "wochentag": 6,
+     "wert": 3092223.5,
+     "prozent": 76.1,
+     "intervalle": 96,
+     "interpoliert": false
+    }
+   ]
+  },
+  {
+   "jahr": 2017,
+   "tage": 365,
+   "vollstaendig": true,
+   "erster_tag": "2017-01-01",
+   "letzter_tag": "2017-12-31",
+   "median": 3943700.3,
+   "stillste": [
+    {
+     "rang": 1,
+     "datum": "2017-04-16",
+     "wochentag": 6,
+     "wert": 2919498.0,
+     "prozent": 74.0,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 2,
+     "datum": "2017-01-01",
+     "wochentag": 6,
+     "wert": 2995518.4,
+     "prozent": 76.0,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 3,
+     "datum": "2017-07-16",
+     "wochentag": 6,
+     "wert": 2999282.2,
+     "prozent": 76.1,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 4,
+     "datum": "2017-12-31",
+     "wochentag": 6,
+     "wert": 2999361.4,
+     "prozent": 76.1,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 5,
+     "datum": "2017-04-30",
+     "wochentag": 6,
+     "wert": 2999620.2,
+     "prozent": 76.1,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 6,
+     "datum": "2017-09-24",
+     "wochentag": 6,
+     "wert": 3011289.0,
+     "prozent": 76.4,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 7,
+     "datum": "2017-12-25",
+     "wochentag": 0,
+     "wert": 3014000.0,
+     "prozent": 76.4,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 8,
+     "datum": "2017-09-03",
+     "wochentag": 6,
+     "wert": 3014769.5,
+     "prozent": 76.4,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 9,
+     "datum": "2017-12-24",
+     "wochentag": 6,
+     "wert": 3015036.0,
+     "prozent": 76.5,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 10,
+     "datum": "2017-10-01",
+     "wochentag": 6,
+     "wert": 3016735.4,
+     "prozent": 76.5,
+     "intervalle": 96,
+     "interpoliert": false
+    }
+   ]
+  },
+  {
+   "jahr": 2018,
+   "tage": 365,
+   "vollstaendig": true,
+   "erster_tag": "2018-01-01",
+   "letzter_tag": "2018-12-31",
+   "median": 3832710.9,
+   "stillste": [
+    {
+     "rang": 1,
+     "datum": "2018-04-01",
+     "wochentag": 6,
+     "wert": 2858733.8,
+     "prozent": 74.6,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 2,
+     "datum": "2018-05-20",
+     "wochentag": 6,
+     "wert": 2876988.0,
+     "prozent": 75.1,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 3,
+     "datum": "2018-06-24",
+     "wochentag": 6,
+     "wert": 2932506.1,
+     "prozent": 76.5,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 4,
+     "datum": "2018-09-30",
+     "wochentag": 6,
+     "wert": 2941301.2,
+     "prozent": 76.7,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 5,
+     "datum": "2018-10-07",
+     "wochentag": 6,
+     "wert": 2957404.5,
+     "prozent": 77.2,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 6,
+     "datum": "2018-08-26",
+     "wochentag": 6,
+     "wert": 2961750.4,
+     "prozent": 77.3,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 7,
+     "datum": "2018-04-15",
+     "wochentag": 6,
+     "wert": 2963489.0,
+     "prozent": 77.3,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 8,
+     "datum": "2018-05-13",
+     "wochentag": 6,
+     "wert": 2964515.3,
+     "prozent": 77.3,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 9,
+     "datum": "2018-09-02",
+     "wochentag": 6,
+     "wert": 2966408.9,
+     "prozent": 77.4,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 10,
+     "datum": "2018-05-06",
+     "wochentag": 6,
+     "wert": 2977209.6,
+     "prozent": 77.7,
+     "intervalle": 96,
+     "interpoliert": false
+    }
+   ]
+  },
+  {
+   "jahr": 2019,
+   "tage": 365,
+   "vollstaendig": true,
+   "erster_tag": "2019-01-01",
+   "letzter_tag": "2019-12-31",
+   "median": 3719740.4,
+   "stillste": [
+    {
+     "rang": 1,
+     "datum": "2019-04-21",
+     "wochentag": 6,
+     "wert": 2812779.4,
+     "prozent": 75.6,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 2,
+     "datum": "2019-12-25",
+     "wochentag": 2,
+     "wert": 2842263.8,
+     "prozent": 76.4,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 3,
+     "datum": "2019-12-29",
+     "wochentag": 6,
+     "wert": 2875404.0,
+     "prozent": 77.3,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 4,
+     "datum": "2019-09-29",
+     "wochentag": 6,
+     "wert": 2889154.9,
+     "prozent": 77.7,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 5,
+     "datum": "2019-12-26",
+     "wochentag": 3,
+     "wert": 2894225.5,
+     "prozent": 77.8,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 6,
+     "datum": "2019-05-26",
+     "wochentag": 6,
+     "wert": 2915023.5,
+     "prozent": 78.4,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 7,
+     "datum": "2019-10-06",
+     "wochentag": 6,
+     "wert": 2918577.1,
+     "prozent": 78.5,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 8,
+     "datum": "2019-05-19",
+     "wochentag": 6,
+     "wert": 2930960.4,
+     "prozent": 78.8,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 9,
+     "datum": "2019-07-14",
+     "wochentag": 6,
+     "wert": 2939215.8,
+     "prozent": 79.0,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 10,
+     "datum": "2019-09-08",
+     "wochentag": 6,
+     "wert": 2940976.0,
+     "prozent": 79.1,
+     "intervalle": 96,
+     "interpoliert": false
+    }
+   ]
+  },
+  {
+   "jahr": 2020,
+   "tage": 366,
+   "vollstaendig": true,
+   "erster_tag": "2020-01-01",
+   "letzter_tag": "2020-12-31",
+   "median": 3550744.1,
+   "stillste": [
+    {
+     "rang": 1,
+     "datum": "2020-04-12",
+     "wochentag": 6,
+     "wert": 2734934.9,
+     "prozent": 77.0,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 2,
+     "datum": "2020-04-19",
+     "wochentag": 6,
+     "wert": 2741729.1,
+     "prozent": 77.2,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 3,
+     "datum": "2020-04-26",
+     "wochentag": 6,
+     "wert": 2746891.8,
+     "prozent": 77.4,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 4,
+     "datum": "2020-05-31",
+     "wochentag": 6,
+     "wert": 2751190.0,
+     "prozent": 77.5,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 5,
+     "datum": "2020-05-03",
+     "wochentag": 6,
+     "wert": 2755970.9,
+     "prozent": 77.6,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 6,
+     "datum": "2020-04-05",
+     "wochentag": 6,
+     "wert": 2758376.0,
+     "prozent": 77.7,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 7,
+     "datum": "2020-05-24",
+     "wochentag": 6,
+     "wert": 2781017.2,
+     "prozent": 78.3,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 8,
+     "datum": "2020-05-17",
+     "wochentag": 6,
+     "wert": 2804131.3,
+     "prozent": 79.0,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 9,
+     "datum": "2020-04-13",
+     "wochentag": 0,
+     "wert": 2827956.1,
+     "prozent": 79.6,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 10,
+     "datum": "2020-05-10",
+     "wochentag": 6,
+     "wert": 2829159.2,
+     "prozent": 79.7,
+     "intervalle": 96,
+     "interpoliert": false
+    }
+   ]
+  },
+  {
+   "jahr": 2021,
+   "tage": 365,
+   "vollstaendig": true,
+   "erster_tag": "2021-01-01",
+   "letzter_tag": "2021-12-31",
+   "median": 3489877.6,
+   "stillste": [
+    {
+     "rang": 1,
+     "datum": "2021-05-23",
+     "wochentag": 6,
+     "wert": 2608603.8,
+     "prozent": 74.7,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 2,
+     "datum": "2021-05-30",
+     "wochentag": 6,
+     "wert": 2640902.8,
+     "prozent": 75.7,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 3,
+     "datum": "2021-04-04",
+     "wochentag": 6,
+     "wert": 2730457.5,
+     "prozent": 78.2,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 4,
+     "datum": "2021-04-11",
+     "wochentag": 6,
+     "wert": 2732853.0,
+     "prozent": 78.3,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 5,
+     "datum": "2021-05-02",
+     "wochentag": 6,
+     "wert": 2747700.6,
+     "prozent": 78.7,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 6,
+     "datum": "2021-12-26",
+     "wochentag": 6,
+     "wert": 2749388.7,
+     "prozent": 78.8,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 7,
+     "datum": "2021-08-08",
+     "wochentag": 6,
+     "wert": 2765246.8,
+     "prozent": 79.2,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 8,
+     "datum": "2021-04-25",
+     "wochentag": 6,
+     "wert": 2779184.4,
+     "prozent": 79.6,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 9,
+     "datum": "2021-05-24",
+     "wochentag": 0,
+     "wert": 2781203.8,
+     "prozent": 79.7,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 10,
+     "datum": "2021-05-09",
+     "wochentag": 6,
+     "wert": 2785671.3,
+     "prozent": 79.8,
+     "intervalle": 96,
+     "interpoliert": false
+    }
+   ]
+  },
+  {
+   "jahr": 2022,
+   "tage": 365,
+   "vollstaendig": true,
+   "erster_tag": "2022-01-01",
+   "letzter_tag": "2022-12-31",
+   "median": 3520174.4,
+   "stillste": [
+    {
+     "rang": 1,
+     "datum": "2022-04-17",
+     "wochentag": 6,
+     "wert": 2608901.1,
+     "prozent": 74.1,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 2,
+     "datum": "2022-05-29",
+     "wochentag": 6,
+     "wert": 2692461.5,
+     "prozent": 76.5,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 3,
+     "datum": "2022-12-25",
+     "wochentag": 6,
+     "wert": 2708057.7,
+     "prozent": 76.9,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 4,
+     "datum": "2022-07-10",
+     "wochentag": 6,
+     "wert": 2736705.7,
+     "prozent": 77.7,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 5,
+     "datum": "2022-09-18",
+     "wochentag": 6,
+     "wert": 2747150.8,
+     "prozent": 78.0,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 6,
+     "datum": "2022-05-01",
+     "wochentag": 6,
+     "wert": 2749330.4,
+     "prozent": 78.1,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 7,
+     "datum": "2022-01-01",
+     "wochentag": 5,
+     "wert": 2752386.1,
+     "prozent": 78.2,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 8,
+     "datum": "2022-04-18",
+     "wochentag": 0,
+     "wert": 2752636.4,
+     "prozent": 78.2,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 9,
+     "datum": "2022-10-09",
+     "wochentag": 6,
+     "wert": 2753275.2,
+     "prozent": 78.2,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 10,
+     "datum": "2022-09-11",
+     "wochentag": 6,
+     "wert": 2776940.2,
+     "prozent": 78.9,
+     "intervalle": 96,
+     "interpoliert": false
+    }
+   ]
+  },
+  {
+   "jahr": 2023,
+   "tage": 365,
+   "vollstaendig": true,
+   "erster_tag": "2023-01-01",
+   "letzter_tag": "2023-12-31",
+   "median": 3380954.8,
+   "stillste": [
+    {
+     "rang": 1,
+     "datum": "2023-04-09",
+     "wochentag": 6,
+     "wert": 2566122.5,
+     "prozent": 75.9,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 2,
+     "datum": "2023-05-28",
+     "wochentag": 6,
+     "wert": 2581153.0,
+     "prozent": 76.3,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 3,
+     "datum": "2023-05-21",
+     "wochentag": 6,
+     "wert": 2655078.5,
+     "prozent": 78.5,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 4,
+     "datum": "2023-08-06",
+     "wochentag": 6,
+     "wert": 2672970.9,
+     "prozent": 79.1,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 5,
+     "datum": "2023-05-14",
+     "wochentag": 6,
+     "wert": 2688009.8,
+     "prozent": 79.5,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 6,
+     "datum": "2023-09-24",
+     "wochentag": 6,
+     "wert": 2688698.9,
+     "prozent": 79.5,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 7,
+     "datum": "2023-04-30",
+     "wochentag": 6,
+     "wert": 2689792.2,
+     "prozent": 79.6,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 8,
+     "datum": "2023-12-25",
+     "wochentag": 0,
+     "wert": 2694731.3,
+     "prozent": 79.7,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 9,
+     "datum": "2023-10-08",
+     "wochentag": 6,
+     "wert": 2697111.5,
+     "prozent": 79.8,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 10,
+     "datum": "2023-01-01",
+     "wochentag": 6,
+     "wert": 2697354.4,
+     "prozent": 79.8,
+     "intervalle": 96,
+     "interpoliert": false
+    }
+   ]
+  },
+  {
+   "jahr": 2024,
+   "tage": 366,
+   "vollstaendig": true,
+   "erster_tag": "2024-01-01",
+   "letzter_tag": "2024-12-31",
+   "median": 3402045.1,
+   "stillste": [
+    {
+     "rang": 1,
+     "datum": "2024-03-31",
+     "wochentag": 6,
+     "wert": 2562888.0,
+     "prozent": 75.3,
+     "intervalle": 92,
+     "interpoliert": false
+    },
+    {
+     "rang": 2,
+     "datum": "2024-04-14",
+     "wochentag": 6,
+     "wert": 2673693.8,
+     "prozent": 78.6,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 3,
+     "datum": "2024-05-19",
+     "wochentag": 6,
+     "wert": 2677781.2,
+     "prozent": 78.7,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 4,
+     "datum": "2024-07-14",
+     "wochentag": 6,
+     "wert": 2686990.0,
+     "prozent": 79.0,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 5,
+     "datum": "2024-04-01",
+     "wochentag": 0,
+     "wert": 2689280.9,
+     "prozent": 79.0,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 6,
+     "datum": "2024-03-29",
+     "wochentag": 4,
+     "wert": 2698617.5,
+     "prozent": 79.3,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 7,
+     "datum": "2024-04-07",
+     "wochentag": 6,
+     "wert": 2719264.4,
+     "prozent": 79.9,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 8,
+     "datum": "2024-07-07",
+     "wochentag": 6,
+     "wert": 2721528.1,
+     "prozent": 80.0,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 9,
+     "datum": "2024-09-15",
+     "wochentag": 6,
+     "wert": 2722711.2,
+     "prozent": 80.0,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 10,
+     "datum": "2024-03-17",
+     "wochentag": 6,
+     "wert": 2727225.7,
+     "prozent": 80.2,
+     "intervalle": 96,
+     "interpoliert": false
+    }
+   ]
+  },
+  {
+   "jahr": 2025,
+   "tage": 365,
+   "vollstaendig": true,
+   "erster_tag": "2025-01-01",
+   "letzter_tag": "2025-12-31",
+   "median": 3349526.8,
+   "stillste": [
+    {
+     "rang": 1,
+     "datum": "2025-08-03",
+     "wochentag": 6,
+     "wert": 2618566.0,
+     "prozent": 78.2,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 2,
+     "datum": "2025-04-20",
+     "wochentag": 6,
+     "wert": 2635451.8,
+     "prozent": 78.7,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 3,
+     "datum": "2025-05-18",
+     "wochentag": 6,
+     "wert": 2648528.7,
+     "prozent": 79.1,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 4,
+     "datum": "2025-06-08",
+     "wochentag": 6,
+     "wert": 2657991.1,
+     "prozent": 79.4,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 5,
+     "datum": "2025-08-24",
+     "wochentag": 6,
+     "wert": 2665024.1,
+     "prozent": 79.6,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 6,
+     "datum": "2025-04-27",
+     "wochentag": 6,
+     "wert": 2682621.7,
+     "prozent": 80.1,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 7,
+     "datum": "2025-04-06",
+     "wochentag": 6,
+     "wert": 2710059.9,
+     "prozent": 80.9,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 8,
+     "datum": "2025-05-11",
+     "wochentag": 6,
+     "wert": 2723336.1,
+     "prozent": 81.3,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 9,
+     "datum": "2025-04-13",
+     "wochentag": 6,
+     "wert": 2730214.9,
+     "prozent": 81.5,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 10,
+     "datum": "2025-06-09",
+     "wochentag": 0,
+     "wert": 2740150.4,
+     "prozent": 81.8,
+     "intervalle": 96,
+     "interpoliert": false
+    }
+   ]
+  },
+  {
+   "jahr": 2026,
+   "tage": 253,
+   "vollstaendig": false,
+   "erster_tag": "2026-01-01",
+   "letzter_tag": "2026-09-10",
+   "median": 3389347.1,
+   "stillste": [
+    {
+     "rang": 1,
+     "datum": "2026-04-05",
+     "wochentag": 6,
+     "wert": 2620347.1,
+     "prozent": 77.3,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 2,
+     "datum": "2026-05-17",
+     "wochentag": 6,
+     "wert": 2663699.8,
+     "prozent": 78.6,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 3,
+     "datum": "2026-06-07",
+     "wochentag": 6,
+     "wert": 2672259.8,
+     "prozent": 78.8,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 4,
+     "datum": "2026-04-06",
+     "wochentag": 0,
+     "wert": 2683009.5,
+     "prozent": 79.2,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 5,
+     "datum": "2026-05-03",
+     "wochentag": 6,
+     "wert": 2705818.6,
+     "prozent": 79.8,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 6,
+     "datum": "2026-05-24",
+     "wochentag": 6,
+     "wert": 2710624.1,
+     "prozent": 80.0,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 7,
+     "datum": "2026-05-10",
+     "wochentag": 6,
+     "wert": 2729849.2,
+     "prozent": 80.5,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 8,
+     "datum": "2026-04-26",
+     "wochentag": 6,
+     "wert": 2738388.6,
+     "prozent": 80.8,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 9,
+     "datum": "2026-08-23",
+     "wochentag": 6,
+     "wert": 2751306.9,
+     "prozent": 81.2,
+     "intervalle": 96,
+     "interpoliert": false
+    },
+    {
+     "rang": 10,
+     "datum": "2026-04-19",
+     "wochentag": 6,
+     "wert": 2764724.6,
+     "prozent": 81.6,
+     "intervalle": 96,
+     "interpoliert": false
+    }
+   ]
+  }
+ ],
+ "segmente": {
+  "grund": {
+   "name": "Grundversorgte Kunden",
+   "ab": "2020-09-01",
+   "jahre": [
+    {
+     "jahr": 2020,
+     "tage": 122,
+     "vollstaendig": false,
+     "erster_tag": "2020-09-01",
+     "letzter_tag": "2020-12-31",
+     "median": 1654489.7,
+     "stillste": [
+      {
+       "rang": 1,
+       "datum": "2020-09-06",
+       "wochentag": 6,
+       "wert": 1360758.9,
+       "prozent": 82.2,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 2,
+       "datum": "2020-09-20",
+       "wochentag": 6,
+       "wert": 1363789.5,
+       "prozent": 82.4,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 3,
+       "datum": "2020-09-13",
+       "wochentag": 6,
+       "wert": 1368113.8,
+       "prozent": 82.7,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 4,
+       "datum": "2020-10-04",
+       "wochentag": 6,
+       "wert": 1404384.1,
+       "prozent": 84.9,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 5,
+       "datum": "2020-09-27",
+       "wochentag": 6,
+       "wert": 1414826.8,
+       "prozent": 85.5,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 6,
+       "datum": "2020-09-05",
+       "wochentag": 5,
+       "wert": 1423725.7,
+       "prozent": 86.1,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 7,
+       "datum": "2020-09-12",
+       "wochentag": 5,
+       "wert": 1435718.4,
+       "prozent": 86.8,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 8,
+       "datum": "2020-10-11",
+       "wochentag": 6,
+       "wert": 1481267.3,
+       "prozent": 89.5,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 9,
+       "datum": "2020-10-25",
+       "wochentag": 6,
+       "wert": 1488073.8,
+       "prozent": 89.9,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 10,
+       "datum": "2020-09-19",
+       "wochentag": 5,
+       "wert": 1495438.4,
+       "prozent": 90.4,
+       "intervalle": 96,
+       "interpoliert": false
+      }
+     ]
+    },
+    {
+     "jahr": 2021,
+     "tage": 365,
+     "vollstaendig": true,
+     "erster_tag": "2021-01-01",
+     "letzter_tag": "2021-12-31",
+     "median": 1510763.1,
+     "stillste": [
+      {
+       "rang": 1,
+       "datum": "2021-07-11",
+       "wochentag": 6,
+       "wert": 1189826.7,
+       "prozent": 78.8,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 2,
+       "datum": "2021-07-18",
+       "wochentag": 6,
+       "wert": 1191167.2,
+       "prozent": 78.8,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 3,
+       "datum": "2021-08-08",
+       "wochentag": 6,
+       "wert": 1203297.2,
+       "prozent": 79.6,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 4,
+       "datum": "2021-08-01",
+       "wochentag": 6,
+       "wert": 1216013.0,
+       "prozent": 80.5,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 5,
+       "datum": "2021-06-13",
+       "wochentag": 6,
+       "wert": 1236749.9,
+       "prozent": 81.9,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 6,
+       "datum": "2021-07-25",
+       "wochentag": 6,
+       "wert": 1238038.5,
+       "prozent": 81.9,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 7,
+       "datum": "2021-05-30",
+       "wochentag": 6,
+       "wert": 1239175.1,
+       "prozent": 82.0,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 8,
+       "datum": "2021-07-04",
+       "wochentag": 6,
+       "wert": 1251350.1,
+       "prozent": 82.8,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 9,
+       "datum": "2021-07-31",
+       "wochentag": 5,
+       "wert": 1253070.5,
+       "prozent": 82.9,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 10,
+       "datum": "2021-05-23",
+       "wochentag": 6,
+       "wert": 1255467.2,
+       "prozent": 83.1,
+       "intervalle": 96,
+       "interpoliert": false
+      }
+     ]
+    },
+    {
+     "jahr": 2022,
+     "tage": 365,
+     "vollstaendig": true,
+     "erster_tag": "2022-01-01",
+     "letzter_tag": "2022-12-31",
+     "median": 1456983.6,
+     "stillste": [
+      {
+       "rang": 1,
+       "datum": "2022-07-10",
+       "wochentag": 6,
+       "wert": 1117796.5,
+       "prozent": 76.7,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 2,
+       "datum": "2022-07-31",
+       "wochentag": 6,
+       "wert": 1151278.4,
+       "prozent": 79.0,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 3,
+       "datum": "2022-07-17",
+       "wochentag": 6,
+       "wert": 1152924.3,
+       "prozent": 79.1,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 4,
+       "datum": "2022-04-17",
+       "wochentag": 6,
+       "wert": 1157924.0,
+       "prozent": 79.5,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 5,
+       "datum": "2022-08-07",
+       "wochentag": 6,
+       "wert": 1181288.1,
+       "prozent": 81.1,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 6,
+       "datum": "2022-05-29",
+       "wochentag": 6,
+       "wert": 1187061.4,
+       "prozent": 81.5,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 7,
+       "datum": "2022-07-03",
+       "wochentag": 6,
+       "wert": 1187749.7,
+       "prozent": 81.5,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 8,
+       "datum": "2022-04-18",
+       "wochentag": 0,
+       "wert": 1191750.4,
+       "prozent": 81.8,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 9,
+       "datum": "2022-07-09",
+       "wochentag": 5,
+       "wert": 1194446.3,
+       "prozent": 82.0,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 10,
+       "datum": "2022-07-24",
+       "wochentag": 6,
+       "wert": 1196249.6,
+       "prozent": 82.1,
+       "intervalle": 96,
+       "interpoliert": false
+      }
+     ]
+    },
+    {
+     "jahr": 2023,
+     "tage": 365,
+     "vollstaendig": true,
+     "erster_tag": "2023-01-01",
+     "letzter_tag": "2023-12-31",
+     "median": 1469617.4,
+     "stillste": [
+      {
+       "rang": 1,
+       "datum": "2023-07-30",
+       "wochentag": 6,
+       "wert": 1132122.5,
+       "prozent": 77.0,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 2,
+       "datum": "2023-05-28",
+       "wochentag": 6,
+       "wert": 1146687.1,
+       "prozent": 78.0,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 3,
+       "datum": "2023-07-23",
+       "wochentag": 6,
+       "wert": 1157743.8,
+       "prozent": 78.8,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 4,
+       "datum": "2023-04-09",
+       "wochentag": 6,
+       "wert": 1182817.5,
+       "prozent": 80.5,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 5,
+       "datum": "2023-07-02",
+       "wochentag": 6,
+       "wert": 1194457.7,
+       "prozent": 81.3,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 6,
+       "datum": "2023-07-09",
+       "wochentag": 6,
+       "wert": 1200502.2,
+       "prozent": 81.7,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 7,
+       "datum": "2023-05-29",
+       "wochentag": 0,
+       "wert": 1202671.3,
+       "prozent": 81.8,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 8,
+       "datum": "2023-07-16",
+       "wochentag": 6,
+       "wert": 1202806.5,
+       "prozent": 81.8,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 9,
+       "datum": "2023-05-21",
+       "wochentag": 6,
+       "wert": 1202898.9,
+       "prozent": 81.9,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 10,
+       "datum": "2023-07-22",
+       "wochentag": 5,
+       "wert": 1203625.8,
+       "prozent": 81.9,
+       "intervalle": 96,
+       "interpoliert": false
+      }
+     ]
+    },
+    {
+     "jahr": 2024,
+     "tage": 366,
+     "vollstaendig": true,
+     "erster_tag": "2024-01-01",
+     "letzter_tag": "2024-12-31",
+     "median": 1539655.9,
+     "stillste": [
+      {
+       "rang": 1,
+       "datum": "2024-07-14",
+       "wochentag": 6,
+       "wert": 1174117.0,
+       "prozent": 76.3,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 2,
+       "datum": "2024-07-13",
+       "wochentag": 5,
+       "wert": 1218224.9,
+       "prozent": 79.1,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 3,
+       "datum": "2024-07-28",
+       "wochentag": 6,
+       "wert": 1234899.3,
+       "prozent": 80.2,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 4,
+       "datum": "2024-07-07",
+       "wochentag": 6,
+       "wert": 1241480.2,
+       "prozent": 80.6,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 5,
+       "datum": "2024-08-04",
+       "wochentag": 6,
+       "wert": 1241876.5,
+       "prozent": 80.7,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 6,
+       "datum": "2024-05-19",
+       "wochentag": 6,
+       "wert": 1269324.9,
+       "prozent": 82.4,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 7,
+       "datum": "2024-07-21",
+       "wochentag": 6,
+       "wert": 1275860.3,
+       "prozent": 82.9,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 8,
+       "datum": "2024-04-07",
+       "wochentag": 6,
+       "wert": 1275889.1,
+       "prozent": 82.9,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 9,
+       "datum": "2024-06-16",
+       "wochentag": 6,
+       "wert": 1289493.0,
+       "prozent": 83.8,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 10,
+       "datum": "2024-03-31",
+       "wochentag": 6,
+       "wert": 1290276.3,
+       "prozent": 83.8,
+       "intervalle": 92,
+       "interpoliert": false
+      }
+     ]
+    },
+    {
+     "jahr": 2025,
+     "tage": 365,
+     "vollstaendig": true,
+     "erster_tag": "2025-01-01",
+     "letzter_tag": "2025-12-31",
+     "median": 1531690.7,
+     "stillste": [
+      {
+       "rang": 1,
+       "datum": "2025-08-03",
+       "wochentag": 6,
+       "wert": 1168929.1,
+       "prozent": 76.3,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 2,
+       "datum": "2025-08-01",
+       "wochentag": 4,
+       "wert": 1192068.5,
+       "prozent": 77.8,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 3,
+       "datum": "2025-07-13",
+       "wochentag": 6,
+       "wert": 1205271.1,
+       "prozent": 78.7,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 4,
+       "datum": "2025-07-27",
+       "wochentag": 6,
+       "wert": 1205672.5,
+       "prozent": 78.7,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 5,
+       "datum": "2025-08-24",
+       "wochentag": 6,
+       "wert": 1214603.2,
+       "prozent": 79.3,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 6,
+       "datum": "2025-07-12",
+       "wochentag": 5,
+       "wert": 1215378.7,
+       "prozent": 79.3,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 7,
+       "datum": "2025-07-20",
+       "wochentag": 6,
+       "wert": 1226880.0,
+       "prozent": 80.1,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 8,
+       "datum": "2025-05-18",
+       "wochentag": 6,
+       "wert": 1227536.6,
+       "prozent": 80.1,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 9,
+       "datum": "2025-05-29",
+       "wochentag": 3,
+       "wert": 1230279.4,
+       "prozent": 80.3,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 10,
+       "datum": "2025-06-08",
+       "wochentag": 6,
+       "wert": 1232115.5,
+       "prozent": 80.4,
+       "intervalle": 96,
+       "interpoliert": false
+      }
+     ]
+    },
+    {
+     "jahr": 2026,
+     "tage": 253,
+     "vollstaendig": false,
+     "erster_tag": "2026-01-01",
+     "letzter_tag": "2026-09-10",
+     "median": 1513621.1,
+     "stillste": [
+      {
+       "rang": 1,
+       "datum": "2026-05-24",
+       "wochentag": 6,
+       "wert": 1180062.2,
+       "prozent": 78.0,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 2,
+       "datum": "2026-06-07",
+       "wochentag": 6,
+       "wert": 1203773.6,
+       "prozent": 79.5,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 3,
+       "datum": "2026-04-05",
+       "wochentag": 6,
+       "wert": 1223907.2,
+       "prozent": 80.9,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 4,
+       "datum": "2026-06-14",
+       "wochentag": 6,
+       "wert": 1228153.9,
+       "prozent": 81.1,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 5,
+       "datum": "2026-07-05",
+       "wochentag": 6,
+       "wert": 1231250.4,
+       "prozent": 81.3,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 6,
+       "datum": "2026-07-26",
+       "wochentag": 6,
+       "wert": 1235838.2,
+       "prozent": 81.6,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 7,
+       "datum": "2026-07-19",
+       "wochentag": 6,
+       "wert": 1240864.3,
+       "prozent": 82.0,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 8,
+       "datum": "2026-04-06",
+       "wochentag": 0,
+       "wert": 1243379.0,
+       "prozent": 82.1,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 9,
+       "datum": "2026-05-25",
+       "wochentag": 0,
+       "wert": 1255138.7,
+       "prozent": 82.9,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 10,
+       "datum": "2026-08-23",
+       "wochentag": 6,
+       "wert": 1255196.2,
+       "prozent": 82.9,
+       "intervalle": 96,
+       "interpoliert": false
+      }
+     ]
+    }
+   ]
+  },
+  "frei": {
+   "name": "Freie Kunden",
+   "ab": "2020-09-01",
+   "jahre": [
+    {
+     "jahr": 2020,
+     "tage": 122,
+     "vollstaendig": false,
+     "erster_tag": "2020-09-01",
+     "letzter_tag": "2020-12-31",
+     "median": 1903755.9,
+     "stillste": [
+      {
+       "rang": 1,
+       "datum": "2020-12-20",
+       "wochentag": 6,
+       "wert": 1345321.9,
+       "prozent": 70.7,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 2,
+       "datum": "2020-12-27",
+       "wochentag": 6,
+       "wert": 1353191.9,
+       "prozent": 71.1,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 3,
+       "datum": "2020-11-08",
+       "wochentag": 6,
+       "wert": 1365872.6,
+       "prozent": 71.7,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 4,
+       "datum": "2020-12-26",
+       "wochentag": 5,
+       "wert": 1386940.3,
+       "prozent": 72.9,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 5,
+       "datum": "2020-11-15",
+       "wochentag": 6,
+       "wert": 1388925.3,
+       "prozent": 73.0,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 6,
+       "datum": "2020-11-29",
+       "wochentag": 6,
+       "wert": 1396607.7,
+       "prozent": 73.4,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 7,
+       "datum": "2020-12-25",
+       "wochentag": 4,
+       "wert": 1409049.3,
+       "prozent": 74.0,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 8,
+       "datum": "2020-10-18",
+       "wochentag": 6,
+       "wert": 1419163.7,
+       "prozent": 74.5,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 9,
+       "datum": "2020-11-22",
+       "wochentag": 6,
+       "wert": 1422584.5,
+       "prozent": 74.7,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 10,
+       "datum": "2020-12-13",
+       "wochentag": 6,
+       "wert": 1490695.4,
+       "prozent": 78.3,
+       "intervalle": 96,
+       "interpoliert": false
+      }
+     ]
+    },
+    {
+     "jahr": 2021,
+     "tage": 365,
+     "vollstaendig": true,
+     "erster_tag": "2021-01-01",
+     "letzter_tag": "2021-12-31",
+     "median": 1890268.3,
+     "stillste": [
+      {
+       "rang": 1,
+       "datum": "2021-05-23",
+       "wochentag": 6,
+       "wert": 1353136.6,
+       "prozent": 71.6,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 2,
+       "datum": "2021-04-11",
+       "wochentag": 6,
+       "wert": 1355784.8,
+       "prozent": 71.7,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 3,
+       "datum": "2021-04-18",
+       "wochentag": 6,
+       "wert": 1365924.9,
+       "prozent": 72.3,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 4,
+       "datum": "2021-12-26",
+       "wochentag": 6,
+       "wert": 1369640.4,
+       "prozent": 72.5,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 5,
+       "datum": "2021-05-02",
+       "wochentag": 6,
+       "wert": 1372567.8,
+       "prozent": 72.6,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 6,
+       "datum": "2021-12-25",
+       "wochentag": 5,
+       "wert": 1382252.5,
+       "prozent": 73.1,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 7,
+       "datum": "2021-02-28",
+       "wochentag": 6,
+       "wert": 1386500.8,
+       "prozent": 73.3,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 8,
+       "datum": "2021-03-14",
+       "wochentag": 6,
+       "wert": 1399672.9,
+       "prozent": 74.0,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 9,
+       "datum": "2021-05-30",
+       "wochentag": 6,
+       "wert": 1401727.6,
+       "prozent": 74.2,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 10,
+       "datum": "2021-03-07",
+       "wochentag": 6,
+       "wert": 1406430.5,
+       "prozent": 74.4,
+       "intervalle": 96,
+       "interpoliert": false
+      }
+     ]
+    },
+    {
+     "jahr": 2022,
+     "tage": 365,
+     "vollstaendig": true,
+     "erster_tag": "2022-01-01",
+     "letzter_tag": "2022-12-31",
+     "median": 1994090.2,
+     "stillste": [
+      {
+       "rang": 1,
+       "datum": "2022-01-02",
+       "wochentag": 6,
+       "wert": 1371567.6,
+       "prozent": 68.8,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 2,
+       "datum": "2022-01-01",
+       "wochentag": 5,
+       "wert": 1381041.3,
+       "prozent": 69.3,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 3,
+       "datum": "2022-12-25",
+       "wochentag": 6,
+       "wert": 1414018.2,
+       "prozent": 70.9,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 4,
+       "datum": "2022-01-09",
+       "wochentag": 6,
+       "wert": 1424167.6,
+       "prozent": 71.4,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 5,
+       "datum": "2022-01-30",
+       "wochentag": 6,
+       "wert": 1439985.7,
+       "prozent": 72.2,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 6,
+       "datum": "2022-04-17",
+       "wochentag": 6,
+       "wert": 1450977.1,
+       "prozent": 72.8,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 7,
+       "datum": "2022-01-23",
+       "wochentag": 6,
+       "wert": 1452025.1,
+       "prozent": 72.8,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 8,
+       "datum": "2022-01-16",
+       "wochentag": 6,
+       "wert": 1460864.6,
+       "prozent": 73.3,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 9,
+       "datum": "2022-11-27",
+       "wochentag": 6,
+       "wert": 1471713.9,
+       "prozent": 73.8,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 10,
+       "datum": "2022-09-25",
+       "wochentag": 6,
+       "wert": 1473910.9,
+       "prozent": 73.9,
+       "intervalle": 96,
+       "interpoliert": false
+      }
+     ]
+    },
+    {
+     "jahr": 2023,
+     "tage": 365,
+     "vollstaendig": true,
+     "erster_tag": "2023-01-01",
+     "letzter_tag": "2023-12-31",
+     "median": 1882302.7,
+     "stillste": [
+      {
+       "rang": 1,
+       "datum": "2023-12-24",
+       "wochentag": 6,
+       "wert": 1289490.4,
+       "prozent": 68.5,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 2,
+       "datum": "2023-12-31",
+       "wochentag": 6,
+       "wert": 1301797.5,
+       "prozent": 69.2,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 3,
+       "datum": "2023-02-19",
+       "wochentag": 6,
+       "wert": 1316516.4,
+       "prozent": 69.9,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 4,
+       "datum": "2023-12-25",
+       "wochentag": 0,
+       "wert": 1325921.0,
+       "prozent": 70.4,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 5,
+       "datum": "2023-03-12",
+       "wochentag": 6,
+       "wert": 1335163.8,
+       "prozent": 70.9,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 6,
+       "datum": "2023-11-05",
+       "wochentag": 6,
+       "wert": 1346830.0,
+       "prozent": 71.6,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 7,
+       "datum": "2023-03-05",
+       "wochentag": 6,
+       "wert": 1347721.9,
+       "prozent": 71.6,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 8,
+       "datum": "2023-02-12",
+       "wochentag": 6,
+       "wert": 1353793.5,
+       "prozent": 71.9,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 9,
+       "datum": "2023-12-26",
+       "wochentag": 1,
+       "wert": 1364281.6,
+       "prozent": 72.5,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 10,
+       "datum": "2023-04-09",
+       "wochentag": 6,
+       "wert": 1383305.0,
+       "prozent": 73.5,
+       "intervalle": 96,
+       "interpoliert": false
+      }
+     ]
+    },
+    {
+     "jahr": 2024,
+     "tage": 366,
+     "vollstaendig": true,
+     "erster_tag": "2024-01-01",
+     "letzter_tag": "2024-12-31",
+     "median": 1811061.6,
+     "stillste": [
+      {
+       "rang": 1,
+       "datum": "2024-03-31",
+       "wochentag": 6,
+       "wert": 1272611.7,
+       "prozent": 70.3,
+       "intervalle": 92,
+       "interpoliert": false
+      },
+      {
+       "rang": 2,
+       "datum": "2024-03-17",
+       "wochentag": 6,
+       "wert": 1300727.3,
+       "prozent": 71.8,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 3,
+       "datum": "2024-02-18",
+       "wochentag": 6,
+       "wert": 1301834.8,
+       "prozent": 71.9,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 4,
+       "datum": "2024-02-25",
+       "wochentag": 6,
+       "wert": 1308096.0,
+       "prozent": 72.2,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 5,
+       "datum": "2024-04-28",
+       "wochentag": 6,
+       "wert": 1309756.4,
+       "prozent": 72.3,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 6,
+       "datum": "2024-02-11",
+       "wochentag": 6,
+       "wert": 1317503.2,
+       "prozent": 72.7,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 7,
+       "datum": "2024-03-24",
+       "wochentag": 6,
+       "wert": 1320592.4,
+       "prozent": 72.9,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 8,
+       "datum": "2024-02-04",
+       "wochentag": 6,
+       "wert": 1330553.7,
+       "prozent": 73.5,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 9,
+       "datum": "2024-12-25",
+       "wochentag": 2,
+       "wert": 1334442.8,
+       "prozent": 73.7,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 10,
+       "datum": "2024-01-28",
+       "wochentag": 6,
+       "wert": 1334705.8,
+       "prozent": 73.7,
+       "intervalle": 96,
+       "interpoliert": false
+      }
+     ]
+    },
+    {
+     "jahr": 2025,
+     "tage": 365,
+     "vollstaendig": true,
+     "erster_tag": "2025-01-01",
+     "letzter_tag": "2025-12-31",
+     "median": 1842290.4,
+     "stillste": [
+      {
+       "rang": 1,
+       "datum": "2025-12-28",
+       "wochentag": 6,
+       "wert": 1342888.3,
+       "prozent": 72.9,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 2,
+       "datum": "2025-12-21",
+       "wochentag": 6,
+       "wert": 1351113.7,
+       "prozent": 73.3,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 3,
+       "datum": "2025-12-25",
+       "wochentag": 3,
+       "wert": 1356218.0,
+       "prozent": 73.6,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 4,
+       "datum": "2025-04-20",
+       "wochentag": 6,
+       "wert": 1361152.7,
+       "prozent": 73.9,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 5,
+       "datum": "2025-11-30",
+       "wochentag": 6,
+       "wert": 1361308.9,
+       "prozent": 73.9,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 6,
+       "datum": "2025-01-12",
+       "wochentag": 6,
+       "wert": 1366676.8,
+       "prozent": 74.2,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 7,
+       "datum": "2025-12-07",
+       "wochentag": 6,
+       "wert": 1371690.7,
+       "prozent": 74.5,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 8,
+       "datum": "2025-12-26",
+       "wochentag": 4,
+       "wert": 1374132.0,
+       "prozent": 74.6,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 9,
+       "datum": "2025-04-27",
+       "wochentag": 6,
+       "wert": 1379934.8,
+       "prozent": 74.9,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 10,
+       "datum": "2025-11-23",
+       "wochentag": 6,
+       "wert": 1393194.7,
+       "prozent": 75.6,
+       "intervalle": 96,
+       "interpoliert": false
+      }
+     ]
+    },
+    {
+     "jahr": 2026,
+     "tage": 253,
+     "vollstaendig": false,
+     "erster_tag": "2026-01-01",
+     "letzter_tag": "2026-09-10",
+     "median": 1845101.0,
+     "stillste": [
+      {
+       "rang": 1,
+       "datum": "2026-03-29",
+       "wochentag": 6,
+       "wert": 1323647.3,
+       "prozent": 71.7,
+       "intervalle": 92,
+       "interpoliert": false
+      },
+      {
+       "rang": 2,
+       "datum": "2026-02-01",
+       "wochentag": 6,
+       "wert": 1351278.1,
+       "prozent": 73.2,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 3,
+       "datum": "2026-02-08",
+       "wochentag": 6,
+       "wert": 1355200.2,
+       "prozent": 73.4,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 4,
+       "datum": "2026-01-25",
+       "wochentag": 6,
+       "wert": 1366374.7,
+       "prozent": 74.1,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 5,
+       "datum": "2026-01-04",
+       "wochentag": 6,
+       "wert": 1374009.4,
+       "prozent": 74.5,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 6,
+       "datum": "2026-05-17",
+       "wochentag": 6,
+       "wert": 1379284.7,
+       "prozent": 74.8,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 7,
+       "datum": "2026-01-01",
+       "wochentag": 3,
+       "wert": 1395797.7,
+       "prozent": 75.6,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 8,
+       "datum": "2026-04-05",
+       "wochentag": 6,
+       "wert": 1396444.1,
+       "prozent": 75.7,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 9,
+       "datum": "2026-01-18",
+       "wochentag": 6,
+       "wert": 1396585.3,
+       "prozent": 75.7,
+       "intervalle": 96,
+       "interpoliert": false
+      },
+      {
+       "rang": 10,
+       "datum": "2026-04-19",
+       "wochentag": 6,
+       "wert": 1398408.0,
+       "prozent": 75.8,
+       "intervalle": 96,
+       "interpoliert": false
+      }
+     ]
+    }
+   ]
+  }
+ }
+}
