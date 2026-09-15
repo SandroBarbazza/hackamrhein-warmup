@@ -1,4 +1,4 @@
-Eine Seite, die je Jahr die zehn verbrauchsärmsten Werktage (Montag bis Freitag) im Stromnetz von Basel-Stadt als Balken zeigt; das Datum erscheint erst per Klick. Live: https://derbilla.github.io/hackamrhein-warmup/
+Eine Seite, die je Jahr die zehn verbrauchsärmsten Werktage (Montag bis Freitag) im Stromnetz von Basel-Stadt als Balken zeigt; Datum, Feiertagsname, Tagesverlauf und Wochenkontext erscheinen erst per Klick. Live: https://derbilla.github.io/hackamrhein-warmup/
 
 Befund: Über alle Tage gerechnet sind die stillsten Tage keine Feiertage, sondern Sonntage, 133 der 150 Ranglistenplätze 2012–2026, der stillste Tag ist meist der Ostersonntag. Nimmt man die Wochenenden heraus, zeigt das Netz den Feiertagskalender fast lückenlos: Von 150 Werktagsplätzen sind 115 gesetzliche Feiertage, 23 Tage zwischen Weihnachten und Neujahr, 8 Brückentage und nur 4 andere Werktage; ein Feiertag liegt im Median bei 79 % des Werktagsmedians, ein Sonntag bei 79 %, ein normaler Werktag bei 100 %.
 
